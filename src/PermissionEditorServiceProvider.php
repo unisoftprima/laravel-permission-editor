@@ -5,7 +5,7 @@ namespace Unisoft\LaravelPermissionEditor;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
-//use Laraveldaily\LaravelPermissionEditor\Http\Middleware\SpatiePermissionMiddleware;
+use Unisoft\LaravelPermissionEditor\Http\Middleware\SpatiePermissionMiddleware;
 
 class PermissionEditorServiceProvider extends ServiceProvider
 {
