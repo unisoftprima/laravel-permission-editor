@@ -1,0 +1,28 @@
+{
+    "name": "unisoft/laravel-permission-editor",
+    "description": "Visual UI for managing Roles/Permissions for Spatie Laravel Permission package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felx Wei",
+            "email": "felix@unisoft.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unisoft\\LaravelPermissionEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Unisoft\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/laravel-permission": "^5.0"
+    },
+    "version": "0.0.1"
+}
