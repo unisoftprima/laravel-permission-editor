@@ -5,7 +5,7 @@ This is a package that gives a very simple visual UI for managing roles/permissi
 ## How to Use
 
 1. Make sure to install the spatie/laravel-permission package first and configure it
-2. Run `composer require unisoftprima/laravel-permission-editor`
+2. Run `composer require unisoft/laravel-permission-editor`
 3. Run `php artisan vendor:publish --provider="Unisoft\LaravelPermissionEditor\PermissionEditorServiceProvider"` to publish the Assets and Config
 4. Launch `/permission-editor/roles` in your browser
 
